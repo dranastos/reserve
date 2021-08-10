@@ -79,6 +79,127 @@
       "artifacts": [
         "console"
       ]
+    },
+    "C:\\reserve\\contracts\\reserveExchange.sol": {
+      "lastModificationDate": 1628599686608,
+      "contentHash": "5de14f578f5f4571b108f2e9e3a0a953",
+      "sourceName": "contracts/reserveExchange.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Context",
+        "IERC20",
+        "Ownable",
+        "Reserve",
+        "RezerveExchange",
+        "SafeMath"
+      ]
+    },
+    "C:\\reserve\\contracts\\reserveStaking.sol": {
+      "lastModificationDate": 1628599881247,
+      "contentHash": "efe155e4aeb4360d53cde5a6546d3daf",
+      "sourceName": "contracts/reserveStaking.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.6"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "ERC20",
+        "EnumerableSet",
+        "IERC20",
+        "IMigratorChef",
+        "Ownable",
+        "ReserveStaking",
+        "SafeERC20",
+        "SafeMath",
+        "SushiToken"
+      ]
+    },
+    "C:\\reserve\\contracts\\reserveStakingReceiver.sol": {
+      "lastModificationDate": 1628599805668,
+      "contentHash": "4925d2657f677bf4f347a8cfaaae1d7b",
+      "sourceName": "contracts/reserveStakingReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Context",
+        "IERC20",
+        "Ownable",
+        "ReserveStakingReceiver",
+        "SafeMath"
+      ]
     }
   }
 }
